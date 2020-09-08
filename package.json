@@ -1,6 +1,6 @@
 {
-  "name": "node-bacnet",
-  "version": "0.2.4",
+  "name": "@widesky/node-bacnet",
+  "version": "0.2.5",
   "description": "The BACnet protocol library written in pure JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,15 @@
     "docker": "npm run compose:build && npm run compose:up",
     "prepublishOnly": "npm run lint && npm run coverage && npm run docker && npm run docs"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BiancoRoyal/node-bacstack.git"
+    "url": "https://github.com/widesky/node-bacstack.git"
   },
   "keywords": [
+    "widesky",
     "bacnet",
     "fieldbus",
     "building",

@@ -6,7 +6,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/BiancoRoyal/node-bacstack/badge.svg?branch=master)](https://coveralls.io/github/BiancoRoyal/node-bacstack?branch=master)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/BiancoRoyal/node-bacstack)
 
-# node-bacnet
+# node-bacstack
 
 [![node-bacnetLogo64](images/bacnet-icon-quad64.png)](https://www.npmjs.com/package/node-bacnet)
 
@@ -16,7 +16,7 @@ BACnet® is a protocol to interact with building automation devices defined by A
 
 ## Usage
 
-Add node-bacnet to your project by using:
+Add WideSky's node-bacstack to your project by using:
 
 ``` sh
 npm install --save @widesky/node-bacstack
@@ -27,7 +27,7 @@ The API documentation is available under **[GitHub Page of Docs](https://biancor
 ### Features
 
 The BACnet® standard defines a wide variety of services as part of the
-specification. While node-bacnet tries to be as complete as possible,
+specification. While node-bacstack tries to be as complete as possible,
 following services are already supported at this point in time:
 
 | Service                        | Execute                                                                                | Handle                                                                        |

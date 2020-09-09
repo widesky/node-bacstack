@@ -19,7 +19,7 @@ BACnet® is a protocol to interact with building automation devices defined by A
 Add node-bacnet to your project by using:
 
 ``` sh
-npm install --save node-bacnet
+npm install --save @widesky/node-bacstack
 ```
 
 The API documentation is available under **[GitHub Page of Docs](https://biancoroyal.github.io/node-bacstack/)**.

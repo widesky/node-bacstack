@@ -1,6 +1,6 @@
 {
-  "name": "@widesky/node-bacnet",
-  "version": "1.0.0",
+  "name": "@widesky/node-bacstack",
+  "version": "1.0.1",
   "description": "The BACnet protocol library written in pure JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -48,6 +48,10 @@
     {
       "name": "Ingo Fischer",
       "email": "iobroker@fischer-ka.de"
+    },
+    {
+      "name": "WideSky.Cloud",
+      "email": "support@widesky.cloud"
     }
   ],
   "engines": {
@@ -60,9 +64,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BiancoRoyal/node-bacstack/issues"
+    "url": "https://github.com/widesky/node-bacstack/issues"
   },
-  "homepage": "https://github.com/BiancoRoyal/node-bacstack#readme",
+  "homepage": "https://github.com/widesky/node-bacstack#readme",
   "dependencies": {
     "debug": "^4.1.1",
     "iconv-lite": "^0.5.1",

@@ -1,6 +1,6 @@
 {
   "name": "@widesky/node-bacnet",
-  "version": "0.2.5",
+  "version": "1.0.0",
   "description": "The BACnet protocol library written in pure JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,6 @@
     "compose:up": "docker-compose up --abort-on-container-exit --exit-code-from bacnet-client",
     "docker": "npm run compose:build && npm run compose:up",
     "prepublishOnly": "npm run lint && npm run coverage && npm run docker && npm run docs"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
